@@ -1,0 +1,38 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [7.986, 58.160],
+              [8.006, 58.160],
+              [8.006, 58.170],
+              [7.986, 58.170],
+              [7.986, 58.160]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Test Area 1",
+          "description": "A mock polygon in Kristiansand.",
+          "fill": "#FF0000",
+          "opacity": 0.6
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [8.008, 58.165]
+        },
+        "properties": {
+          "name": "Test Point 1",
+          "description": "A mock point in Kristiansand.",
+          "marker-color": "#00FF00"
+        }
+      }
+    ]
+  }

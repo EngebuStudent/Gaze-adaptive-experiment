@@ -1,12 +1,13 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import StartPage from './pages/StartPage';
-import ExperimentPage from './pages/ExperimentPage';
+import StartPage from './components/StartPage/StartPage';
+import ExperimentPage from './components/ExperimentPage/ExperimentPage';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<StartPage />} />
+        <Route path="/" element={<StartPage onStart={() => {}} />} />
         <Route path="/experiment" element={<ExperimentPage />} />
       </Routes>
     </Router>
